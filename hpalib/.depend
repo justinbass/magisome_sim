@@ -1,0 +1,557 @@
+atox.o: src/atox.c /usr/include/ctype.h /usr/include/_ansi.h \
+ /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h src/xpre.h src/hpaconf.h \
+ /usr/include/stdio.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+constant.o: src/constant.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/mp/const07.h
+cxaop.o: src/cxaop.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxbasic.o: src/cxbasic.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxconstant.o: src/cxconstant.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxconvf.o: src/cxconvf.c /usr/include/stdlib.h \
+ /usr/include/machine/ieeefp.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/sys/config.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/string.h /usr/include/sys/string.h /usr/include/ctype.h \
+ src/cxpre.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxexp.o: src/cxexp.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxhypb.o: src/cxhypb.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxidiv.o: src/cxidiv.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxpow.o: src/cxpow.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxprcmp.o: src/cxprcmp.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+cxtrig.o: src/cxtrig.c src/cxpre.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+prcxpr.o: src/prcxpr.c /usr/include/stdlib.h \
+ /usr/include/machine/ieeefp.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/sys/config.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/string.h /usr/include/sys/string.h src/cxpre.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+print.o: src/print.c /usr/include/stdio.h /usr/include/_ansi.h \
+ /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h \
+ /usr/include/string.h /usr/include/sys/string.h src/xpre.h src/hpaconf.h
+prxpr.o: src/prxpr.c /usr/include/stdlib.h /usr/include/machine/ieeefp.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/sys/features.h /usr/include/cygwin/config.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/include/string.h /usr/include/sys/string.h src/xpre.h src/hpaconf.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+sfmod.o: src/sfmod.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+shift.o: src/shift.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xadd.o: src/xadd.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xchcof.o: src/xchcof.c /usr/include/stdlib.h \
+ /usr/include/machine/ieeefp.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/sys/config.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h src/xpre.h \
+ src/hpaconf.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xdiv.o: src/xdiv.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xevtch.o: src/xevtch.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xexp.o: src/xexp.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xfmod.o: src/xfmod.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xfrac.o: src/xfrac.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xhypb.o: src/xhypb.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xivhypb.o: src/xivhypb.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xivtrg.o: src/xivtrg.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h \
+ /usr/include/math.h
+xlog.o: src/xlog.c /usr/include/stdio.h /usr/include/_ansi.h \
+ /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h src/xpre.h \
+ src/hpaconf.h
+xmul.o: src/xmul.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xneg.o: src/xneg.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xprcmp.o: src/xprcmp.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xpwr.o: src/xpwr.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xsigerr.o: src/xsigerr.c /usr/include/stdio.h /usr/include/_ansi.h \
+ /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h \
+ /usr/include/stdlib.h /usr/include/machine/stdlib.h \
+ /usr/include/alloca.h /usr/include/cygwin/stdlib.h \
+ /usr/include/cygwin/wait.h src/xpre.h src/hpaconf.h
+xsqrt.o: src/xsqrt.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h \
+ /usr/include/math.h
+xtodbl.o: src/xtodbl.c \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/float.h src/xpre.h \
+ src/hpaconf.h /usr/include/stdio.h /usr/include/_ansi.h \
+ /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xtoflt.o: src/xtoflt.c /usr/include/stdlib.h \
+ /usr/include/machine/ieeefp.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/sys/config.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/lock.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/stdlib.h /usr/include/alloca.h \
+ /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/float.h src/xpre.h \
+ src/hpaconf.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
+xtrig.o: src/xtrig.c src/xpre.h src/hpaconf.h /usr/include/stdio.h \
+ /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/4.9.2/include/stdarg.h \
+ /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+ /usr/include/machine/_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/types.h /usr/include/sys/_stdint.h \
+ /usr/include/machine/types.h /usr/include/cygwin/types.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/_timespec.h \
+ /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h
